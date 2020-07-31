@@ -144,7 +144,7 @@ function keyPressed() {
 
   if (key === ' ') {
     if (bullets.length <= 0) {
-      bullets.push(new Bullet(player.pos.x, player.pos.y,21))
+      bullets.push(new Bullet(player.pos.x+12.5, player.pos.y,21))
     }
   }
 }

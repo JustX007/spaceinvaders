@@ -42,7 +42,7 @@ class Enemy {
 
   update() {
     if (random(10000) < 5 + level) {
-      alienbullets.push(new Bullet(this.pos.x, this.pos.y, -7))
+      alienbullets.push(new Bullet(this.pos.x+12.5, this.pos.y, -7))
     }
 
 
